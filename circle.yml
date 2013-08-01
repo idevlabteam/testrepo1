@@ -1,0 +1,6 @@
+deployment:
+  production:
+    branch: production
+    commands:
+    - gem install af
+    - af login --email eugene.dolgov@gmail.com --passwd fkbcf!1Q
