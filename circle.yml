@@ -2,6 +2,7 @@ deployment:
   production:
     branch: master
     commands:
-#     - mvn clean package
+    - mvn clean package
     - gem install af
     - af login --email eugene.dolgov@gmail.com --passwd fkbcf!1Q
+    - af update edoltest target/megatool-1.0-SNAPSHOT.war
