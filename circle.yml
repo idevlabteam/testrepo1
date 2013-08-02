@@ -4,5 +4,5 @@ deployment:
     commands:
     - mvn clean package
     - gem install af
-    - af login --email --passwd
+    - af login --email APPFOG_LOGIN --passwd APPFOG_PASS
     - af update edoltest --path target/megatool.war
